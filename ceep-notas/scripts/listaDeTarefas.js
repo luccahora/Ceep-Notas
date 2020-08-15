@@ -41,7 +41,7 @@
         tarefaCompleta.classList.toggle('done')
     }
 
-    const BotaoDeleta = () => {
+        const BotaoDeleta = () => {
         const botaoDeleta = document.createElement('button')
 
         botaoDeleta.innerText = 'deletar'
@@ -50,7 +50,7 @@
         return botaoDeleta
     }
 
-    const deletarTarefa = (evento) =>{
+        const deletarTarefa = (evento) =>{
         const botaoDeleta = evento.target
         
         const tarefaCompleta = botaoDeleta.parentElement
